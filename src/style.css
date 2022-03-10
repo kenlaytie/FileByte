@@ -1,0 +1,71 @@
+/* CSS */
+
+/* Menu */
+
+.menu-button{
+    -fx-background-color: transparent;
+    -fx-border-width: 0 0 0 4;
+    -fx-border-color: dodgerblue;
+    -fx-border-radius: 0;
+    -fx-background-radius: 0;
+}
+
+.menu-button:selected{
+    -fx-text-fill: white;
+    -fx-background-color: dodgerblue;
+}
+
+.menu-button:selected .label{
+    -fx-text-fill: white;
+}
+
+/* TabPane */
+
+.tab-pane{
+    -fx-tab-max-height: 0 ;
+}
+.tab-pane .tab-header-area{
+    -fx-padding: -1em;
+    visibility: hidden;
+}
+
+
+/* ScrollPane */
+
+.scroll-pane .viewport{
+    -fx-background-color: transparent;
+}
+.scroll-pane .scroll-bar .increment-button{
+    visibility: hidden;
+}
+.scroll-pane .scroll-bar .decrement-button{
+    visibility: hidden;
+}
+.scroll-pane .scroll-bar:vertical{
+    -fx-background-color: transparent;
+}
+.scroll-pane .scroll-bar:vertical .track-background{
+    visibility: hidden;
+}
+.scroll-pane .scroll-bar:vertical .track{
+    visibility: hidden;
+}
+.scroll-pane .hide-thumb .scroll-bar:vertical .thumb{
+    -fx-background-color: transparent;
+}
+
+/* Choice Box */
+
+/* .choice-box .menu-item > .label{
+    -fx-pref-width: 250;
+    -fx-text-alignment: center;
+} */
+
+
+/* TESTING */
+
+.testing{
+    background: rgb(20, 212, 20);
+    background: rgb(42, 130, 218);
+    background: rgb(194, 57, 84);
+}

@@ -1,0 +1,182 @@
+/* STYLE CONTENT */
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* Header */
+
+header{
+    width: auto;
+    padding: 40px 20px;
+    background: #123456;
+}
+
+.title{
+    text-align: center;
+    font-size: 50px;
+    font-family: Recoleta,"Noto Serif",Georgia,Times New Roman,Times,serif;
+    font-family: gabriola;
+    font-weight: 600;
+    line-height: 50px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.title-heading{
+    display: flex;
+    justify-content: center;
+}
+
+.title-heading-content{
+    width: 350px;
+    text-align: center;
+    font-size: 17px;
+    color: rgb(230, 230, 230);
+}
+
+
+/* Intro */
+
+.intro{
+    width: auto;
+    padding-top: 50px;
+}
+
+.intro-pane{
+    text-align: center;
+    font-size: 19px;
+    font-family: recaleto;
+    font-weight: 600;
+    color: rgb(98, 139, 180);
+    color: rgba(30, 143, 255, 0.678);
+}
+
+
+/* Container */
+
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.container-pane{
+    width: 80%;
+}
+
+
+/* Container Section */
+
+
+.container-pane section{
+    padding-top: 40px;
+    border-bottom: 2px solid rgb(230, 230, 230);
+}
+
+/* Section */
+
+.heading{
+    font-size: 25px;
+    font-family: recaleto;
+    color: steelblue;
+}
+
+.content{
+    width: auto;
+    padding: 10px 0px;
+}
+
+.content-pane{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.content-details{
+    width: auto;
+}
+
+ul{
+    font-size: 16px;
+    font-family: Recoleta,"Noto Serif",Georgia,Times New Roman,Times,serif;
+    color: gray;
+}
+
+li{
+    list-style-type: disc;
+    line-height: 21px;
+}
+
+.content-contents{
+    padding: 10px 10px 40px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-contents img{
+    width: 50%;
+    box-shadow: 0px 1px 5px 1px gray;
+    border-radius: 7px;
+}
+
+.content-contents img:nth-child(2){
+    margin-left: 20px;
+}
+
+
+/* Problem */
+
+.problem{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.problem-pane{
+    width: 85%;
+}
+
+.problem-title{
+    font-size: 20px;
+    font-family: comic sans MS;
+    color: dodgerblue;
+}
+
+.problem-content{
+    width: 45%;
+    padding: 20px 0px;
+    font-size: 16px;
+    font-family: recaleto;
+    line-height: 21px;
+    color: rgb(99, 99, 99);
+}
+
+
+/* Footer */
+
+footer{
+    width: auto;
+    padding: 70px 0px;
+}
+
+.footer-name{
+    width: auto;
+    text-align: center;
+    font-size: 25px;
+    font-family: Recoleta,"Noto Serif",Georgia,Times New Roman,Times,serif;
+    color: rgb(108, 108, 108);
+    padding-bottom: 6px;
+}
+
+.footer-web{
+    text-align: center;
+    color: rgb(149, 149, 149);
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
